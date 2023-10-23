@@ -1,0 +1,25 @@
+version: '3'
+services:
+  database:
+    image: mysql:latest
+    ports:
+      - "3306:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=RohrKabel06
+      - MYSQL_DATABASE=biketracker
+
+  backend:
+    image: biketracker/frontend:latest
+    ports:
+      - "8080:8080"
+      - "9092:9092"
+    depends_on:
+      - database
+
+  # React Frontend Service
+  frontend:
+    image: biketracker/frontend:latest
+    ports:
+      - "3000:3000"
+    links:
+      - backend

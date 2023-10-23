@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>net.ntrapp</groupId>
-	<artifactId>biketracker</artifactId>
+	<artifactId>backend</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Biketracker-Backend</name>
 	<description>Backend for bike tracker project</description>

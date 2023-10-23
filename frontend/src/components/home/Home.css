@@ -1,0 +1,47 @@
+
+
+.container {
+    margin-top: 5%;
+}
+
+.btn {
+    background-color: #fff;
+    padding: 15px 30px;
+    margin-top: 15%;
+    width: fit-content;
+    font-size: large;
+    border-radius: 50px;
+    box-shadow: 1px 1px 10px #0000002f;
+}
+
+.btn, .btn:visited, .btn:hover, .btn:active {
+    text-decoration: none;
+    color: #000;
+}
+
+.btn:hover {
+    background-color: #fbfbfb;
+}
+
+.btn:active {
+    background-color: #ddd;
+}
+
+.parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    text-align: center;
+}
+
+th {
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+}
