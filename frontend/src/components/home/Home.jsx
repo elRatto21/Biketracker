@@ -14,7 +14,7 @@ function Home() {
     let config = {
       method: "get",
       maxBodyLength: Infinity,
-      url: "http://localhost:8080/api/bike",
+      url: "http://backend:8080/api/bike",
     };
     axios
       .request(config)

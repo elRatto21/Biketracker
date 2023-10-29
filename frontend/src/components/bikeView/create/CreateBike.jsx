@@ -21,7 +21,7 @@ function CreateBike() {
     let config = {
       method: "post",
       maxBodyLength: Infinity,
-      url: "http://localhost:8080/api/bike",
+      url: "http://backend:8080/api/bike",
       headers: {
         "Content-Type": "application/json",
       },
